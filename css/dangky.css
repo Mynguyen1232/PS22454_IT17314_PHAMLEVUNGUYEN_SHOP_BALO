@@ -1,0 +1,72 @@
+.exit {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: auto;
+}
+.exit a {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.exit i {
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.form {
+    max-width: 600px;
+    border: 1px solid #ddd;
+    padding: 40px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px #ddd;
+}
+.form .title {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.form label,input,p,button {
+    width: 100%;
+}
+.form label {
+    font-size: 21px;
+    color: rgb(41, 41, 41);
+}
+.form .foo {
+    margin-top: 5px;
+    font-size: 18px;
+    color: red;
+}
+.form input {
+    width: 98%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(124, 121, 121);
+}
+.form input:focus {
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid rgb(29, 29, 29);
+}
+.form .check {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 8px;
+    background-color: white;
+}
+.form button:hover {
+    background-color: orangered;
+    color: white;
+}
